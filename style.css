@@ -1,18 +1,3 @@
-body {
-  font-family: sans-serif;
-}
-
-.sort-buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-#inventory {
-  list-style: none;
-  padding: 0;
-}
-
 #inventory .book {
   display: flex;
   align-items: center;
@@ -26,11 +11,3 @@ body {
   flex-grow: 1;
 }
 
-#inventory .removeBookButton {
-  padding: 5px 10px;
-  border: none;
-  background-color: rgba(124, 124, 124, 0.712);
-  color: white;
-  cursor: pointer;
-  margin-right: 10px;
-}
